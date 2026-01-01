@@ -6,15 +6,9 @@
 <body>
 
     <h2>Profile Images</h2>
-
-    <!-- Your Image -->
     <a href="https://www.linkedin.com/in/jahnavi-narra-ab8471390/" target="_blank">
         <img src="C:\Users\Dell\OneDrive\Pictures\Images\WhatsApp Image 2022-07-14 at 7.25.53 PM.jpeg" alt="My Image" width="200" height="200">
     </a>
-
-    <br><br>
-
-    <!-- Friend's Image -->
     <a href="https://www.linkedin.com/in/Vedhika_narne-53b3a89387/" target="_blank">
         <img src="C:\Users\Dell\OneDrive\Pictures\Images\WhatsApp Image 2022-07-14 at 7.25.53 PM.jpeg" alt="Friend Image" width="200" height="200">
     </a>
