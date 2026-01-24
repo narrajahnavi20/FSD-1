@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Semantic Tags</title>
+    <style>
+        body { 
+            font-family: Arial; 
+        }
+
+        header, nav, main, section, article, aside, footer {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        nav a { 
+            margin-right: 10px; 
+        }
+
+        figure img {
+            width: 250px;     /* controls image size */
+            height: auto;     /* keeps aspect ratio */
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Web Page</h1>
+    <p>Learning <span style="color:blue;">HTML5 Semantic Tags</span></p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+
+    <section>
+        <h2>Technology Section</h2>
+
+        <article>
+            <h3>HTML5 Introduction</h3>
+            <p>
+                HTML5 introduces new semantic elements that help structure
+                web pages more meaningfully.
+            </p>
+
+            <figure>
+                <img src="https://static.vecteezy.com/system/resources/previews/050/819/242/non_2x/romantic-blooms-red-rose-background-free-photo.jpg"
+                     alt="HTML5 Image">
+                <figcaption>Fig: HTML5 Logo (Sample Image)</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Related Information</h3>
+        <p>Semantic tags improve accessibility and SEO.</p>
+    </aside>
+
+    <div>
+        <p>
+            This is a <span style="color:red;">div</span> container used for
+            grouping content.
+        </p>
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 My Website | Designed using HTML5</p>
+</footer>
+
+</body>
+</html>
