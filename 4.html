@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors </title>
+
+    <style>
+        /* ===== SIMPLE SELECTORS ===== */
+
+        /* Element selector */
+        li {
+            color: navy;
+        }
+
+        /* ID selector */
+        #title {
+            text-align: center;
+            color: darkgreen;
+        }
+
+        /* Class selector */
+        .box {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        /* Group selector */
+        h4, h5 {
+            color: maroon;
+        }
+
+        /* Universal selector */
+        * {
+            font-family: Verdana;
+        }
+
+        /* ===== COMBINATOR SELECTORS ===== */
+
+        /* Descendant selector */
+        section p {
+            color: teal;
+        }
+
+        /* Child selector */
+        section > h4 {
+            text-decoration: underline;
+        }
+
+        /* Adjacent sibling selector */
+        h4 + p {
+            color: chocolate;
+        }
+
+        /* General sibling selector */
+        h5 ~ p {
+            color: darkslateblue;
+        }
+
+        /* ===== PSEUDO-CLASS SELECTOR ===== */
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        /* ===== PSEUDO-ELEMENT SELECTOR ===== */
+        p::first-line {
+            font-weight: bold;
+        }
+
+        /* ===== ATTRIBUTE SELECTOR ===== */
+        input[type="email"] {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="title">CSS Selectors Demo</h1>
+
+    <h4>Simple Selectors</h4>
+    <ul>
+        <li>List item one</li>
+        <li class="box">List item with class selector</li>
+    </ul>
+
+    <h5>Group Selector Heading</h5>
+
+    <section>
+        <h4>Child Selector Heading</h4>
+        <p>Paragraph inside section (descendant selector).</p>
+    </section>
+
+    <h4>Adjacent Sibling Example</h4>
+    <p>This paragraph comes right after h4.</p>
+
+    <h5>General Sibling Example</h5>
+    <p>Paragraph one</p>
+    <p>Paragraph two</p>
+
+    <h4>Pseudo-class Selector</h4>
+    <button>Hover Me</button>
+
+    <h4>Pseudo-element Selector</h4>
+    <p>This paragraph demonstrates the first-line pseudo-element.</p>
+
+    <h4>Attribute Selector</h4>
+    <input type="email" placeholder="Enter email">
+    <input type="text" placeholder="Enter name">
+
+</body>
+</html>
